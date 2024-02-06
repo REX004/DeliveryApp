@@ -38,6 +38,7 @@ class Profile : Fragment() {
             switch.isChecked = activity.isChecked
             if (activity.isChecked) {
                activity.setTheme(R.style.Base_Theme_DeliveryAppNight)
+                // asldfjkals;djkfl;kasjd;lfkjas;dlfk
             } else {
                 activity.setTheme(R.style.Base_Theme_DeliveryAppLight)
             }

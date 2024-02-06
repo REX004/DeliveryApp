@@ -43,6 +43,8 @@ class Profile : Fragment() {
                 activity.setTheme(R.style.Base_Theme_DeliveryAppLight)
             }
         }
+        //Gdggdgdgggdgd
+
 //        switch.setOnCheckedChangeListener { buttonView, isChecked ->
 //            if (isChecked)
 //                requireContext().setTheme(R.style.Base_Theme_DeliveryAppNight)

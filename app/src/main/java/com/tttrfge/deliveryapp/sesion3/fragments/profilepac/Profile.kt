@@ -53,6 +53,9 @@ class Profile : Fragment() {
 //        bF1.setOnClickListener { controller.navigate(R.id.addPaymentMethod) }
 //        bF2.setOnClickListener { controller.navigate(R.id.notification) }
 //        bF3.setOnClickListener { controller.navigate(R.id.transactionSuccessful1)}
+
+
+        ///laskjdflsajkdfl;kj
     }
 
 }

@@ -6616,6 +6616,27 @@
     {
         "tags": {
             "any": [
+                "park",
+                "cemetery"
+            ]
+        },
+        "stylers": {
+            "visibility": "off"
+        }
+    },
+    {
+        "tags": {
+            "any": [
+                "vegetation"
+            ]
+        },
+        "stylers": {
+            "visibility": "off"
+        }
+    },
+    {
+        "tags": {
+            "any": [
                 "industrial",
                 "construction_site",
                 "medical",
@@ -6759,20 +6780,6 @@
             ]
         },
         "elements": "label.icon",
-        "stylers": {
-            "visibility": "off"
-        }
-    },
-    {
-        "tags": {
-            "any": [
-                "road_construction",
-                "road_minor",
-                "road_unclassified",
-                "path",
-                "road_limited"
-            ]
-        },
         "stylers": {
             "visibility": "off"
         }

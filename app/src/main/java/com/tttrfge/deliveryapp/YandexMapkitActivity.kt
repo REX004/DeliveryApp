@@ -30,16 +30,15 @@ class YandexMapkitActivity : AppCompatActivity() {
         println(text);
         mapView.map.setMapStyle(text);
 
-
         val placemark: PlacemarkMapObject = mapView.map.mapObjects.addPlacemark()
         placemark.geometry = Point(55.80163679298551, 49.17724461823924)
         val view = IconForegroundBinding.inflate(layoutInflater);
-        placemark.setView(ViewProvider(view.root), IconStyle().apply { scale = 0.2f })
+        placemark.setView(ViewProvider(view.root), IconStyle().apply { scale = 1.5f })
 
         val placemark2: PlacemarkMapObject = mapView.map.mapObjects.addPlacemark()
         placemark2.geometry = Point(55.78799698131486, 49.117998989816556)
         val view2 = IconForegroundBinding.inflate(layoutInflater);
-        placemark2.setView(ViewProvider(view2.root), IconStyle().apply { scale = 0.2f })
+        placemark2.setView(ViewProvider(view2.root), IconStyle().apply { scale = 1.5f })
 
         val drivingRouter = DirectionsFactory.getInstance().createDrivingRouter()
         val drivingOptions = DrivingOptions().apply {

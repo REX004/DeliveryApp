@@ -56,8 +56,10 @@ class Profile : Fragment() {
 //        bF2.setOnClickListener { controller.navigate(R.id.notification) }
 //        bF3.setOnClickListener { controller.navigate(R.id.transactionSuccessful1)}
 
-
+//hrlllrllrlrlrlrl
+        //gitjjjdjdjdjddj
         ///laskjdflsajkdfl;kj
+        //wewewewe
     }
 
 }
